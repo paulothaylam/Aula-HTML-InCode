@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+
+strong {
+  color: blue;
+  font-size: 40px;
+}
+.logo {
+  display: flex;
+  /* height: 30px; */
+}
+div.task {
+  padding: 10px;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  max-width: 50%;
+  margin: 0px auto;
+
+  ul {
+    text-align: left;
+  }
+
+  input,
+  button {
+    height: 30px;
+    border-radius: 10px;
+    border-color: blue;
+  }
+
+  button {
+    background-color: blue;
+    color: white;
+    width: 10%;
+  }
+
+  input {
+    width: 80%;
+  }
+}
