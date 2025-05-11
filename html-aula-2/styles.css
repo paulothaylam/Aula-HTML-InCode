@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(255, 253, 231);
+  section.Curriculo {
+    width: 50%;
+  }
+  section.Perfil {
+    width: 50%;
+    background-color: #d9b8ff;
+    border-radius: 20px;
+    text-align: center;
+    img {
+      border-radius: 10px;
+    }
+  }
+}
+
+div {
+  /* background-color: black; */
+  display: flex;
+  gap: 10px;
+  /* img {border-radius: 10px;} */
+}
+
+section.Main {
+  background-color: #b8eaff;
+  border: 3px solid #b8eaff;
+  border-radius: 20px;
+}
+
+section.Sociais {
+  background-color: #d3f7d9;
+  border: 3px solid #d3f7d9;
+  border-radius: 20px;
+}
+
+section.InCode {
+  background-color: #f3d3f7;
+  border: 3px solid #f3d3f7;
+  border-radius: 20px;
+  img {
+    border-radius: 10px;
+  }
+}
